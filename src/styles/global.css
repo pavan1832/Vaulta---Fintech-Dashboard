@@ -1,0 +1,64 @@
+/* src/styles/global.css */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #080C18;
+  color: #EEF2FF;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar        { width: 5px; height: 5px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  { background: #1E2D44; border-radius: 3px; }
+
+/* Animations */
+@keyframes shimmer   { 0%   { background-position: 200% 0; }
+                       100% { background-position: -200% 0; } }
+@keyframes fadeUp    { from { opacity: 0; transform: translateY(14px); }
+                       to   { opacity: 1; transform: translateY(0); } }
+@keyframes scaleIn   { from { opacity: 0; transform: scale(0.94); }
+                       to   { opacity: 1; transform: scale(1); } }
+@keyframes slideR    { from { opacity: 0; transform: translateX(-14px); }
+                       to   { opacity: 1; transform: translateX(0); } }
+@keyframes spin      { to   { transform: rotate(360deg); } }
+
+.fade-up  { animation: fadeUp  0.35s ease forwards; }
+.scale-in { animation: scaleIn 0.22s ease forwards; }
+.slide-r  { animation: slideR  0.28s ease forwards; }
+
+/* Form element resets */
+input::placeholder,
+textarea::placeholder { color: #3D4F65; }
+
+input, select, button, textarea { font-family: 'DM Sans', system-ui, sans-serif; }
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.4);
+  cursor: pointer;
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
