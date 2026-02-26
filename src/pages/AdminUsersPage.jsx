@@ -11,8 +11,8 @@ const AdminUsersPage = () => {
     selectedUser, selectedTxns, viewUserTransactions, clearSelectedUser,
   } = useAdminData();
 
-  useEffect(() => { loadData(); }, []);
-
+  useEffect(() => { loadData(); }, [loadData]);
+  
   return (
     <div className="fade-up" style={{ padding: "22px 22px 40px" }}>
       <div style={{ marginBottom: 20 }}>
