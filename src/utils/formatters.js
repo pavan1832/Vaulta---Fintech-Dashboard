@@ -6,7 +6,7 @@
  * @param {number} amount
  * @param {string} currency - ISO 4217 currency code
  */
-export const formatCurrency = (amount, currency = "USD") =>
+export const formatCurrency = (amount, currency = "INR") =>
   new Intl.NumberFormat("en-US", {
     style: "currency",
     currency,
