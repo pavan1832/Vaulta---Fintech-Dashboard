@@ -40,17 +40,17 @@ export const FX_RATES = {
 const DB = {
   users: [
     {
-      id: "usr_001", name: "Lokpavan P",  email: "lokpavan@aspora.io",
+      id: "usr_001", name: "Lokpavan P",  email: "lokpavan@vaulta.io",
       password: "demo1234",  role: "user",  avatar: "AM",
       currency: "INR", balance: 24850.75, country: "IN→US", joined: "2023-03-12",
     },
     {
-      id: "usr_002", name: "Arjun", email: "Arjun@aspora.io",
+      id: "usr_002", name: "Arjun", email: "Arjun@vaulta.io",
       password: "demo1234",  role: "user",  avatar: "PS",
       currency: "INR", balance: 11420.00, country: "IN→UK", joined: "2023-06-08",
     },
     {
-      id: "usr_003", name: "Admin User",   email: "admin@aspora.io",
+      id: "usr_003", name: "Admin User",   email: "admin@vaulta.io",
       password: "admin1234", role: "admin", avatar: "AU",
       currency: "INR", balance: 0,         country: "US",    joined: "2022-01-01",
     },
