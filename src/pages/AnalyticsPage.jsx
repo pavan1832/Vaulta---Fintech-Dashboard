@@ -27,7 +27,7 @@ const AnalyticsPage = () => {
   const { user } = useAuth();
   const { monthlyData, chartLoading, fetchMonthlyData } = useApp();
 
-  useEffect(() => {
+    useEffect(() => {
     if (user?.id) fetchMonthlyData(user.id);
   }, [user?.id]);
 
