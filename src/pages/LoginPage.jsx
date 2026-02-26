@@ -49,7 +49,7 @@ const AuthLayout = ({ children }) => (
 
 const LoginPage = ({ onNavigate }) => {
   const { login } = useAuth();
-  const [email,    setEmail]    = useState("arjun@aspora.io");
+  const [email,    setEmail]    = useState("lokpavan@vaulta.io");
   const [password, setPassword] = useState("demo1234");
   const [loading,  setLoading]  = useState(false);
   const [error,    setError]    = useState("");
