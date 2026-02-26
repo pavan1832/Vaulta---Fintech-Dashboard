@@ -1,6 +1,7 @@
 # ⬡ Vaulta Banking Dashboard
 
 > Production-ready fintech dashboard — Send Money, Add Funds, Currency Exchange, Analytics, Admin Panel
+> The project is Live at: https://vaulta-fintech-dashboard.vercel.app/
 
 ---
 
