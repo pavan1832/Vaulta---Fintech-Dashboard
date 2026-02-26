@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import {
   AreaChart, Area, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend,
+  Tooltip, ResponsiveContainer,
 } from "recharts";
 import { useAuth } from "../context/AuthContext";
 import { useApp }  from "../context/AppContext";
