@@ -91,8 +91,8 @@ const LoginPage = ({ onNavigate }) => {
           </div>
           <div style={{ display: "flex", gap: 8 }}>
             {[
-              { l: "👤 User",     e: "arjun@aspora.io",  p: "demo1234"  },
-              { l: "🛡️ Admin",   e: "admin@aspora.io",  p: "admin1234" },
+              { l: "👤 User",     e: "lokpavan@vaulta.io",  p: "demo1234"  },
+              { l: "🛡️ Admin",   e: "admin@vaulta.io",  p: "admin1234" },
             ].map((d) => (
               <button key={d.e} onClick={() => { setEmail(d.e); setPassword(d.p); }}
                 style={{
