@@ -1,7 +1,7 @@
 // src/components/Sidebar.jsx
 import T from "../styles/tokens";
 import Avatar from "./Avatar";
-import Btn from "./Btn";
+
 
 const Sidebar = ({ activePage, onNavigate, isAdmin, user, onLogout }) => {
   const userNav = [
