@@ -19,7 +19,7 @@ const SendMoneyModal = ({ onClose }) => {
   const [result,  setResult]  = useState(null);
   const [recipients, setRecipients] = useState([]);
 
-  useEffect(() => { apiService.getRecipients(user.id).then(setRecipients); }, []);
+  useEffect(() => { apiService.getRecipients(user.id).then(setRecipients); }, [user.id]);
 
   const parsed    = parseFloat(amount) || 0;
   const selectedR = recipients.find((r) => r.email === toEmail);
