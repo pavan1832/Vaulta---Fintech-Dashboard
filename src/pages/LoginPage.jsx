@@ -69,7 +69,7 @@ const LoginPage = ({ onNavigate }) => {
           Welcome back
         </h2>
         <p style={{ fontSize: 14, color: T.textSecondary, marginBottom: 22 }}>
-          Sign in to your Borderless account
+          Sign in to your Vaulta account
         </p>
 
         {error && <AlertBox type="error">{error}</AlertBox>}
