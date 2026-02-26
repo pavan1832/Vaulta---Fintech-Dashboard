@@ -36,7 +36,7 @@ const Sidebar = ({ activePage, onNavigate, isAdmin, user, onLogout }) => {
             justifyContent: "center", fontSize: 14,
           }}>⬡</div>
           <span style={{ fontFamily: T.fontDisplay, fontSize: 18, color: T.textPrimary }}>
-            Borderless
+            Vaulta
           </span>
         </div>
       </div>
