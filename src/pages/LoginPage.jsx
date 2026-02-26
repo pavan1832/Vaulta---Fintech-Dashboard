@@ -35,7 +35,7 @@ const AuthLayout = ({ children }) => (
             justifyContent: "center", fontSize: 18,
           }}>⬡</div>
           <span style={{ fontFamily: T.fontDisplay, fontSize: 26, color: T.textPrimary, letterSpacing: "-0.02em" }}>
-            Borderless
+            Vaulta
           </span>
         </div>
         <div style={{ fontSize: 12, color: T.textMuted, letterSpacing: "0.1em", textTransform: "uppercase" }}>
