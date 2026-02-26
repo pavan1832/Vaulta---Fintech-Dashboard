@@ -1,4 +1,4 @@
-# ⬡ Borderless Banking Dashboard
+# ⬡ Vaulta Banking Dashboard
 
 > Production-ready fintech dashboard — Send Money, Add Funds, Currency Exchange, Analytics, Admin Panel
 
@@ -22,9 +22,9 @@ npm start
 
 | Role  | Email                | Password    |
 |-------|----------------------|-------------|
-| User  | arjun@aspora.io      | demo1234    |
-| User  | priya@aspora.io      | demo1234    |
-| Admin | admin@aspora.io      | admin1234   |
+| User  | lokpavan@vaulta.io   | demo1234    |
+| User  | arjun@vaulta.io      | demo1234    |
+| Admin | admin@vaulta.io      | admin1234   |
 
 > **Try sending money:** Login as Arjun → Payments → Send Money → recipient: `priya@aspora.io`
 
